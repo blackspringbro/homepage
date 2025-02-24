@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+
+/*https://www.youtube.com/watch?v=D6aeJTnGvHo&t=2125sを参考にした*/
+
+*{/*デフォルトの余白をなくす*/
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    word-break: break-all;
+}
+
+h2{
+    font-size: clamp(22px, 3.2vw, 36px);
+    margin-bottom: 20px;
+}
+
+:root{
+    --primary-color:#333;
+    --secondary-color:#F7F0D7;
+    --background-color:#fff;
+
+    --base-margin:20px;
+    --base-padding:30px;
+}
+body{
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+header{
+    padding: var(--base-padding);
+    text-align: center;
+}
+header h1{
+    font-size: clamp(28px,6vw,70px);
+    margin-bottom: 20px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,74 @@
+.hero img{
+    width: 100%;
+}
+
+/*-----
+
+プロフィール
+
+-----*/
+.about{
+    text-align: center;
+    padding: var(--base-padding);
+    text-align: center;
+}
+
+.about table{
+    margin: 0 auto;
+    width: auto;
+    text-align: left;
+}
+.about td{
+    padding: 10px;
+}
+
+
+
+.history{
+    background-color: var(--secondary-color);
+    padding: var(--base-padding);
+    text-align: center;
+}
+
+.history table{
+    margin: 0 auto;
+    width: auto;
+    text-align: left;
+}
+.history td{
+    padding: 10px;
+}
+
+
+
+
+
+
+/*-----
+
+製作物
+
+-----*/
+.production{
+    background-color: var(--background-color);
+    padding: var(--base-padding);
+    text-align: center;
+}
+.production table{
+    margin: 0 auto;
+    width: auto;
+    text-align: left;
+}
+.production td{
+    padding: 10px;
+}
+
+
+/*-----
+
+連絡先
+
+-----*/
+aside{
+    text-align: center;
+}
